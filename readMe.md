@@ -1,4 +1,10 @@
+1. open classStarter in VS Code
+2. run in the terminal "npm i"
+
+
+
 P5JS
+
 
 P5JS is a JavaScript Library which focuses on creating sketches using code. Not limited to only sketches, you can create your whole site using P5JS using methods to code HTML objects similar to PHP. For more information please visit https://p5js.org/
 
