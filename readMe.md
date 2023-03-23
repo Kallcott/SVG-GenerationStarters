@@ -19,7 +19,9 @@ Now we are all set. To create a sketch we can use the command:
 p5js new <sketch> --run
 ```
 To run and open an existing sketch such as fractalplant we use :
+```
 p5js run fractalplant –code
+```
 For more information please visit the sites listed:
 
 https://p5js.org/reference/
