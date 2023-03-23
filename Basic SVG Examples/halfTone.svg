@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000">
+
+    <defs>
+        <g id="a" fill="#000">
+            <circle r=".5" />
+            <circle cx="20" r="1" />
+            <circle cx="40" r="1.5" />
+            <circle cx="60" r="2" />
+            <circle cx="80" r="2.5" />
+            <circle cx="100" r="3" />
+            <circle cx="120" r="3.5" />
+            <circle cx="140" r="4" />
+            <circle cx="160" r="4.5" />
+            <circle cx="180" r="5" />
+            <circle cx="200" r="5.5" />
+            <circle cx="220" r="6" />
+            <circle cx="240" r="6.5" />
+            <circle cx="260" r="7" />
+            <circle cx="280" r="7.5" />
+            <circle cx="300" r="8" />
+            <circle cx="320" r="8.5" />
+            <circle cx="340" r="9" />
+            <circle cx="360" r="9.5" />
+            <circle cx="380" r="10" />
+            <circle cx="400" r="10.5" />
+            <circle cx="420" r="11" />
+            <circle cx="440" r="11.5" />
+            <circle cx="460" r="12" />
+            <circle cx="480" r="12.5" />
+            <circle cx="500" r="13" />
+            <circle cx="520" r="13.5" />
+            <circle cx="540" r="14" />
+            <circle cx="560" r="14.5" />
+            <circle cx="580" r="15" />
+
+            <path d="M560-15h9999v30H560z" />
+
+        </g>
+        <g id="b">
+            <use x="40" href="#a"></use>
+            <use x="30" y="20" href="#a"></use>
+            <use x="20" y="40" href="#a"></use>
+            <use x="10" y="60" href="#a"></use>
+            <use y="80" href="#a"></use>
+        </g>
+        <g id="c">
+            <use x="250" href="#b"></use>
+            <use x="200" y="100" href="#b"></use>
+            <use x="150" y="200" href="#b"></use>
+            <use x="100" y="300" href="#b"></use>
+            <use x="50" y="400" href="#b"></use>
+            <use y="500" href="#b"></use>
+        </g>
+    </defs>
+
+
+    <g transform="translate(750 500)">
+        <g transform="rotate(25)">
+            <use transform="translate(-900 600)" href="#c"></use>
+            <use transform="translate(-600 0)" href="#c"></use>
+            <use transform="translate(-300 -600)" href="#c"></use>
+            <use transform="translate(-0 -1200)" href="#c"></use>
+        </g>
+    </g>
+
+</svg>
