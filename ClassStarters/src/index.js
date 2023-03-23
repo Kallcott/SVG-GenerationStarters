@@ -10,9 +10,9 @@ id = "#svg1";
 
 // Create our SVG
 var svgObj = svg.SVG().addTo(id).viewbox(0, 0, 1000, 500).attr({ overflow: "hidden" });
-// drawTerrain1(svgObj);
+drawTerrain1(svgObj);
 // drawterrain2(svgObj);
 
 // T1fini(svgObj);
 // T2fini(svgObj);
-drawterrain3(svgObj);
+// drawterrain3(svgObj);
